@@ -1,2 +1,1 @@
-# loganvaz.github.io
-Personal Website
+#h1 Heading
