@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.acb1a9ca.css",
+    "main.js": "/react-gh-pages/static/js/main.2d52e6c6.js",
+    "static/js/787.82409250.chunk.js": "/react-gh-pages/static/js/787.82409250.chunk.js",
+    "static/media/landscape.jpg": "/react-gh-pages/static/media/landscape.4cdfe692af16a4743991.jpg",
+    "static/media/hermit_tree.JPG": "/react-gh-pages/static/media/hermit_tree.7595b866b5f8aeb6907e.JPG",
+    "static/media/uprooted_tree.JPG": "/react-gh-pages/static/media/uprooted_tree.a4b42cd47188be819a42.JPG",
+    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.2f43a27c08fb8a0c3a88.pdf",
+    "static/media/mountains.jpg": "/react-gh-pages/static/media/mountains.7dd894a06651b1443d38.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.acb1a9ca.css.map": "/react-gh-pages/static/css/main.acb1a9ca.css.map",
+    "main.2d52e6c6.js.map": "/react-gh-pages/static/js/main.2d52e6c6.js.map",
+    "787.82409250.chunk.js.map": "/react-gh-pages/static/js/787.82409250.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb1a9ca.css",
+    "static/js/main.2d52e6c6.js"
+  ]
+}
