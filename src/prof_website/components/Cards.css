@@ -22,6 +22,9 @@ h1 {
   margin: 50px 0 45px;
 }
 
+div.card_item {
+  border: 10px;
+}
 .cards__items {
   margin-bottom: 24px;
 }
@@ -88,6 +91,7 @@ h1 {
   max-height: 100%;
   object-fit:fill;
   transition: all 0.2s linear;
+
 }
 
 .cards__item__img:hover {
@@ -96,12 +100,14 @@ h1 {
 
 .cards__item__info {
   padding: 20px 30px 30px;
+  background-color: black;
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: white;
   font-size: 18px;
   line-height: 24px;
+  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -130,6 +136,7 @@ img.card_item {
   z-index: -1;
 }
 
+/*
 
 body {
   background-image: url("../images/snow_cave.jfif");
@@ -137,3 +144,4 @@ body {
   background-size: cover;
   z-index: -20;
 }
+*/

@@ -9,6 +9,9 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 
+import Resume from './components/Resume';
+import Stories from '../scripts/Stories.js'
+
 const WorkApp = () => {
     return (
         <span>
@@ -16,8 +19,8 @@ const WorkApp = () => {
                 <Navbar />
                 <Routes>
                     <Route path = "/" exact element = {<Home />} />
-                    <Route path ='/services' element = {<Services />  } />
-                    <Route path ='/products' element = {<Products />  } />
+                    <Route path ='/resume' element = {<Resume />  } />
+                    <Route path ='/stories' element = {<Stories />  } />
                     <Route path ='/sign-up' element = {<SignUp />  } />
                 </Routes>
                 <Footer />

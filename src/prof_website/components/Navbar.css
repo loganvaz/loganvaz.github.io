@@ -8,6 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 999;
+
+  
 }
 
 .navbar-container {
@@ -47,6 +49,7 @@
 
 .nav-item {
   height: 80px;
+  position: relative;
 }
 
 .nav-links {
@@ -100,6 +103,9 @@
     z-index: 1;
   }
 
+  .nav-item {
+    top: -20vh;
+  }
   .nav-links {
     text-align: center;
     padding: 2rem;
@@ -148,6 +154,8 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    top: -20vh;
+    position: relative;
   }
 
   .nav-links-mobile:hover {

@@ -15,36 +15,38 @@ function Cards() {
   return (
     <div className = "cards">
 
-        <h1>Look @ these epic destingations</h1>
+        <h1  id = "personal_projects_head" style = {{color: "white", fontSize:'6vh' }}>Personal Projects</h1>
         <div className = "cards__container">
             <div className = "cards__wrapper">
                 <ul className = "cards__items">
 
                     <CardItem 
                     the_src={the_img}
-                    text = "explore mountains in AMZN"
-                    label = "Adventure"
+                    text = "UT Automatic Course Scheduler"
+                    label = "In Progress"
                     path = "/services" />
 
                     <CardItem 
                     the_src="/prof_images/cave_opening.JPG"
-                    text = "explore waterfall in AMZN"
-                    label = "Ad2"
+                    text = "Logical Circuit Generator/Emulator"
+                    label = "April 2022"
                     path = "/services" />
+                </ul>
+                <ul className = "cards__items">
         
                     <CardItem 
                     the_src="prof_images/cave_opening.JPG"
-                    text = "explore waterfall in AMZN"
-                    label = "Ad3"
+                    text = "WebCrawler: Local Document Search Engine"
+                    label = "December 2021"
                     path = "/services" />
               
-                </ul>
-                <ul className = "cards__items">
+                
                 <CardItem 
                     the_src="prof_images/cave_opening.JPG"
-                    text = "explore waterfall in AMZN"
-                    label = "Ad4"
+                    text = "Facial Emotion Detector: Machine Learning Algorithm"
+                    label = "June 2021"
                     path = "/services" />
+                    
         
                     <CardItem 
                     the_src="prof_images/cave_opening.JPG"

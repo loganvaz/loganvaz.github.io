@@ -5,11 +5,15 @@ import './Navbar.css';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 
 function Navbar() {
+
+  const reset_view = () => {
+    window.scrollTo({top: 0, behavior: 'instant'});
+  }
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {setClick(false); reset_view() }
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -31,7 +35,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+            LJFV
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -45,20 +49,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/resume'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Resume
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/stories'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Stories
               </Link>
             </li>
 

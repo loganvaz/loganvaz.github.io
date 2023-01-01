@@ -7,22 +7,37 @@ video {
     position: sticky;
   }
   
-  
-  .hero-container {
-    background: url('../images/mountains.jpg') center center/cover no-repeat;
+  .background-image-hero-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.8)), url('../images/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     position: sticky;
+    
+    
+
+  }
+  .hero-container {
+    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
+    
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    overflow-y:scroll;
   }
-  
-  
+
+  .lightly_shadowed {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  }
+
+
   .hero-container > h1 {
     color: #fff;
     font-size: 100px;
@@ -40,6 +55,7 @@ video {
   .hero-btns {
     margin-top: 32px;
   }
+ 
   
   .hero-btns .btn {
     margin: 6px;
@@ -75,3 +91,11 @@ video {
       width: 100%;
     }
   }
+
+
+  /*remove scroll bars */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+

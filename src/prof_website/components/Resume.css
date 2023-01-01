@@ -1,0 +1,26 @@
+.resume {
+    flex: 1;
+    margin: auto;
+    height: 95vh;
+    min-height: 95vh;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    margin-top: 3vh;
+    
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.8)), url('../images/dark_cave3.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resume_title {
+    margin-bottom: .5em;
+}

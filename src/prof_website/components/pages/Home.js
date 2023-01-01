@@ -8,8 +8,6 @@ function Home () {
     return ( 
         <div>
             <HeroSection />
-            <Cards />
-
         </div>
     )
 }

@@ -12,6 +12,8 @@ import story1 from '../stories/files/withTheMusicOfTheNight.pdf'
 import story2 from "../stories/files/PoemTheGardenIOnceKnew.pdf"
 import story3 from "../stories/files/AGraveMistake.pdf"
 
+import './Stories.css';
+
 //functions to get window dimensions
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
@@ -115,11 +117,7 @@ function Stories() {
     return (
     
         
-        <div className ="App stories">
-       
-                <Header />
-            
-
+        <div className ="stories">
         
                 {
                     

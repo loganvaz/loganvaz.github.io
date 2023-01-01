@@ -59,7 +59,7 @@ function Footer() {
               
               <i className='fab fa-typo3' />
             </Link>
-            <small className='website-rights'>LJV © 2022</small>
+            <small className='website-rights'><span>LJV</span>  © <span>2022</span></small>
           </div>
         </div>
       </section>

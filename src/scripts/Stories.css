@@ -1,0 +1,141 @@
+/*
+import fonts
+*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Passions+Conflict");
+
+
+
+
+.card_title {
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+    font-size: 150%;
+  
+    text-align: center;
+    max-height: 50%;
+    height: 50%;
+  
+  }
+  
+  
+  .story.card_title {
+    font-family: 'Sofia', cursive;
+    align-items: center;
+  }
+  
+  
+  
+  .card_title.Phantom {
+    background-image:linear-gradient(rgba(0, 0, 0, .38),
+    rgba(0, 0, 0, .5)), url("../images/single_rose.jpg") ;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    padding-bottom: 4%;
+    margin-bottom: -2%;
+    margin-top: 0%;
+    color: darkred;
+    font-family: "Passions Conflict";
+    min-height: 5.5em;
+    text-align: center;
+    vertical-align: center;
+    justify-content:center;
+    font-size: 350%;
+    display: flex;
+  
+    
+   
+    filter: contrast(1000%) brightness(200%)
+  
+  }
+  
+  
+  div {
+    text-align: center;
+  }
+  
+  .card_title_area {
+    background-color: grey;
+    margin-bottom: "10.5%";
+    align-items: center;
+    
+  }
+  
+  .card_media.Phantom {
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top:5%;
+  
+    background-image:linear-gradient(rgba(0, 0, 0, .95),
+    rgba(0, 0, 0, .9)), url("../images/single_rose.jpg") ;
+    
+  
+    
+    filter:brightness(52%) contrast(1000%) opacity(99%) hue-rotate(180deg) ;
+  
+  }
+  
+  .card_media.Garden {
+    filter: brightness(100%) contrast(500%) hue-rotate(90deg) opacity(95%)
+  }
+  
+  .card_media.Carriage {
+    filter: saturate(400%) brightness(120%) contrast(150%) hue-rotate(310deg);
+  }
+  
+  .card_title.Carriage {
+    background-color: rgb(3, 3, 25);
+    color: rgb(118, 118, 147);
+    font-size: 250%;
+  
+  }
+  
+  .card_title.Garden {
+    background-color: rgb(5, 53, 5);
+    color: #1e130d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+  }
+  
+  .overall_card.Phantom {
+    background-color: linear-gradient(rgba(255,0,0,.5), rgba(0,0,0,1));
+  }
+  
+  .between.card_media.Phantom {
+    background-image:linear-gradient(rgba(0, 0, 0,.68),
+    rgba(0, 0, 0, .42)), url("../images/dark_cave2.JPG") ;
+    background-size: contain;
+  
+    font-size: 458%;
+    color: whitesmoke;
+    font-family: "Passions Conflict";
+    display: flex;
+    vertical-align: center;
+    justify-content:center;
+    padding-top: 10%;
+    padding-bottom:2%;
+    line-break: .5em;
+  
+  
+  
+  
+    
+   
+    filter:contrast(1000%) brightness(100%);
+    min-height: 100px;
+  
+  
+  }
+  
+  .stories {
+    height: auto;
+    /* The image used */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9)), url("../images/tree_throne.JPG") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
