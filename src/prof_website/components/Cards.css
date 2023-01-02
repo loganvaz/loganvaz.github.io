@@ -47,8 +47,8 @@ div.card_item {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
-  border: 2px double blue;
-
+  /* border: 2px solid blue; */
+  outline-color: lightblue;
 
 }
 
@@ -56,8 +56,8 @@ div.card_item {
   position: relative;
   width: 100%;
   overflow: hidden;
-  max-height: 60vh;
-  height: 60vh;
+  max-height: 50vh;
+  height: 50vh;
 
 }
 
@@ -111,6 +111,7 @@ div.card_item {
   color: white;
   font-size: 18px;
   line-height: 24px;
+  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -148,14 +149,3 @@ body {
   z-index: -20;
 }
 */
-
-.caption {
-  display: none;
-}
-
-.caption.display_on_hover:hover {
-  display: block;
-  z-index: 1;
-  color: black;
-  font-size: 129em;
-}

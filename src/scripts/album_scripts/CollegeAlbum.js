@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import FlippingCard from '../FlippingCard';
 import { CardActionArea , Card, CardMedia} from '@mui/material';
 import ImageGallery from 'react-image-gallery';
-import CancelPresentationSharpIcon from '@mui/icons-material/CancelPresentationSharp';
+
 const import_all = (r) => {
     return r.keys().map(r);
 };
@@ -42,7 +42,7 @@ function CollegeAlbum() {
         console.log("photo_alubum dict is " + photo_album_dict);
         return <Card>  
                 <CardActionArea>
-                    <div style = {{zIndex: 100, position: 'absolute', top: '.5vh', right: '.5vh', color: "black"}}><CancelPresentationSharpIcon style = {{color: 'white'}}/></div>
+                    <div style = {{zIndex: 100, position: 'absolute', top: '.5vh', right: '.5vh', color: "black"}}></div>
                 </CardActionArea>
                 <ImageGallery items ={photo_album_dict} className = "pictureAlbum" onClick={(e) =>preventflip(e)}/> 
                     

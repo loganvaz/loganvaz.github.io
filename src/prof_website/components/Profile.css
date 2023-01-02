@@ -8,6 +8,8 @@
     margin: auto;
 }
 
+
+
 .profile_skill_container {
     margin-top: 5em;
     width: 70%;
@@ -44,4 +46,15 @@
 
 #profile_skill_subtitle {
     font-size: 2em;
+}
+
+@media only screen and (max-width: 650px) {
+    .profile_skill_set {
+      display:flexbox;
+      flex-direction:column;
+    }
+
+    .profile_text_container {
+        text-align: center;
+    }
 }

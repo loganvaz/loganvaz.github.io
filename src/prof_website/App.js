@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
 import Home from './components/pages/Home';
 
 import Services from './components/pages/Services';
@@ -16,16 +16,16 @@ import Stories from '../scripts/Stories.js'
 const WorkApp = () => {
     return (
         <span>
-            <BrowserRouter>
+            <HashRouter basename = {`/${process.env.PUBLIC_URL}`} >
                 <Navbar />
                 <Routes>
-                    <Route path = "/" exact element = {<Home />} />
+                    <Route path = "" exact element = {<Home />} />
                     <Route path ='/resume' element = {<Resume />  } />
                     <Route path ='/stories' element = {<Stories />  } />
                     <Route path = '/sources' element = {<Sources />} />
                 </Routes>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         
         
         </span>
