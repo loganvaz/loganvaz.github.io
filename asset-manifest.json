@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42e34f2f.css",
-    "main.js": "/static/js/main.afac573d.js",
+    "main.css": "/static/css/main.fa7ccfe5.css",
+    "main.js": "/static/js/main.4992c28f.js",
     "static/js/787.82409250.chunk.js": "/static/js/787.82409250.chunk.js",
     "static/media/landscape.jpg": "/static/media/landscape.4cdfe692af16a4743991.jpg",
     "static/media/single_candle.jpg": "/static/media/single_candle.faf5ac61e16e9f7d27bb.jpg",
@@ -22,18 +22,18 @@
     "static/media/carriage.jpg": "/static/media/carriage.9719715b8d776a5d3b4c.jpg",
     "static/media/hospital_at_home.jpg": "/static/media/hospital_at_home.1d474d733d4ff2ca5e51.jpg",
     "static/media/PoemTheGardenIOnceKnew.pdf": "/static/media/PoemTheGardenIOnceKnew.e9514143a6849b9fcb31.pdf",
+    "static/media/withTheMusicOfTheNight.pdf": "/static/media/withTheMusicOfTheNight.5b1d7fcc2539bb3ea4f1.pdf",
     "static/media/face_recognition.png": "/static/media/face_recognition.e49990419827546bd0d9.png",
     "static/media/search_engine.png": "/static/media/search_engine.c9eb02cdc7b27eea7a53.png",
     "static/media/logical_circuit.png": "/static/media/logical_circuit.eb3f59427dc5a58cc944.png",
-    "static/media/withTheMusicOfTheNight.pdf": "/static/media/withTheMusicOfTheNight.57a74c50967e3f8b00ba.pdf",
     "static/media/phantom_mask.jpg": "/static/media/phantom_mask.c793d9dd6622ee3cb711.jpg",
     "index.html": "/index.html",
-    "main.42e34f2f.css.map": "/static/css/main.42e34f2f.css.map",
-    "main.afac573d.js.map": "/static/js/main.afac573d.js.map",
+    "main.fa7ccfe5.css.map": "/static/css/main.fa7ccfe5.css.map",
+    "main.4992c28f.js.map": "/static/js/main.4992c28f.js.map",
     "787.82409250.chunk.js.map": "/static/js/787.82409250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e34f2f.css",
-    "static/js/main.afac573d.js"
+    "static/css/main.fa7ccfe5.css",
+    "static/js/main.4992c28f.js"
   ]
 }
