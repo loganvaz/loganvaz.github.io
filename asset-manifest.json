@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.acb1a9ca.css",
-    "main.js": "/react-gh-pages/static/js/main.2d52e6c6.js",
-    "static/js/787.82409250.chunk.js": "/react-gh-pages/static/js/787.82409250.chunk.js",
-    "static/media/landscape.jpg": "/react-gh-pages/static/media/landscape.4cdfe692af16a4743991.jpg",
-    "static/media/hermit_tree.JPG": "/react-gh-pages/static/media/hermit_tree.7595b866b5f8aeb6907e.JPG",
-    "static/media/uprooted_tree.JPG": "/react-gh-pages/static/media/uprooted_tree.a4b42cd47188be819a42.JPG",
-    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.2f43a27c08fb8a0c3a88.pdf",
-    "static/media/mountains.jpg": "/react-gh-pages/static/media/mountains.7dd894a06651b1443d38.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.acb1a9ca.css.map": "/react-gh-pages/static/css/main.acb1a9ca.css.map",
-    "main.2d52e6c6.js.map": "/react-gh-pages/static/js/main.2d52e6c6.js.map",
-    "787.82409250.chunk.js.map": "/react-gh-pages/static/js/787.82409250.chunk.js.map"
+    "main.css": "/gh-pages/static/css/main.4d8135da.css",
+    "main.js": "/gh-pages/static/js/main.e53065f2.js",
+    "static/js/787.82409250.chunk.js": "/gh-pages/static/js/787.82409250.chunk.js",
+    "static/media/landscape.jpg": "/gh-pages/static/media/landscape.4cdfe692af16a4743991.jpg",
+    "static/media/single_candle.jpg": "/gh-pages/static/media/single_candle.faf5ac61e16e9f7d27bb.jpg",
+    "static/media/cave_opening.JPG": "/gh-pages/static/media/cave_opening.50da3d622b3746640b01.JPG",
+    "static/media/tree.jpg": "/gh-pages/static/media/tree.b9b43a6369e38f361540.jpg",
+    "static/media/hermit_tree.JPG": "/gh-pages/static/media/hermit_tree.7595b866b5f8aeb6907e.JPG",
+    "static/media/dark_cave2.JPG": "/gh-pages/static/media/dark_cave2.dd5b079d7946757ee94d.JPG",
+    "static/media/tree_throne.JPG": "/gh-pages/static/media/tree_throne.ba54e8620c194210723e.JPG",
+    "static/media/dark_cave3 copy.JPG": "/gh-pages/static/media/dark_cave3 copy.07886ff9c0554b3f87e3.JPG",
+    "static/media/dark_cave3.JPG": "/gh-pages/static/media/dark_cave3.07886ff9c0554b3f87e3.JPG",
+    "static/media/dark_cave5.JPG": "/gh-pages/static/media/dark_cave5.945c6e55adfcfdf2c1d1.JPG",
+    "static/media/dark_cave4.JPG": "/gh-pages/static/media/dark_cave4.c1df37d53d0e6ee737c0.JPG",
+    "static/media/resume.pdf": "/gh-pages/static/media/resume.2f43a27c08fb8a0c3a88.pdf",
+    "static/media/mountains.jpg": "/gh-pages/static/media/mountains.7dd894a06651b1443d38.jpg",
+    "static/media/course_planner.jpg": "/gh-pages/static/media/course_planner.75df85a1894f4bc48d93.jpg",
+    "static/media/single_rose.jpg": "/gh-pages/static/media/single_rose.c54ac9fe8f1461a1475b.jpg",
+    "static/media/AGraveMistake.pdf": "/gh-pages/static/media/AGraveMistake.b7c8923b771e0e8f76ae.pdf",
+    "static/media/carriage.jpg": "/gh-pages/static/media/carriage.9719715b8d776a5d3b4c.jpg",
+    "static/media/hospital_at_home.jpg": "/gh-pages/static/media/hospital_at_home.1d474d733d4ff2ca5e51.jpg",
+    "static/media/PoemTheGardenIOnceKnew.pdf": "/gh-pages/static/media/PoemTheGardenIOnceKnew.e9514143a6849b9fcb31.pdf",
+    "static/media/face_recognition.png": "/gh-pages/static/media/face_recognition.e49990419827546bd0d9.png",
+    "static/media/search_engine.png": "/gh-pages/static/media/search_engine.c9eb02cdc7b27eea7a53.png",
+    "static/media/logical_circuit.png": "/gh-pages/static/media/logical_circuit.eb3f59427dc5a58cc944.png",
+    "static/media/withTheMusicOfTheNight.pdf": "/gh-pages/static/media/withTheMusicOfTheNight.57a74c50967e3f8b00ba.pdf",
+    "static/media/phantom_mask.jpg": "/gh-pages/static/media/phantom_mask.c793d9dd6622ee3cb711.jpg",
+    "index.html": "/gh-pages/index.html",
+    "main.4d8135da.css.map": "/gh-pages/static/css/main.4d8135da.css.map",
+    "main.e53065f2.js.map": "/gh-pages/static/js/main.e53065f2.js.map",
+    "787.82409250.chunk.js.map": "/gh-pages/static/js/787.82409250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acb1a9ca.css",
-    "static/js/main.2d52e6c6.js"
+    "static/css/main.4d8135da.css",
+    "static/js/main.e53065f2.js"
   ]
 }
