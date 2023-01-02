@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": ". /static/css/main.c0278f82.css",
+    "main.css": ". /static/css/main.2f2b7344.css",
     "main.js": ". /static/js/main.ca968ad0.js",
     "static/js/787.82409250.chunk.js": ". /static/js/787.82409250.chunk.js",
     "static/media/landscape.jpg": ". /static/media/landscape.4cdfe692af16a4743991.jpg",
@@ -28,12 +28,12 @@
     "static/media/withTheMusicOfTheNight.pdf": ". /static/media/withTheMusicOfTheNight.57a74c50967e3f8b00ba.pdf",
     "static/media/phantom_mask.jpg": ". /static/media/phantom_mask.c793d9dd6622ee3cb711.jpg",
     "index.html": ". /index.html",
-    "main.c0278f82.css.map": ". /static/css/main.c0278f82.css.map",
+    "main.2f2b7344.css.map": ". /static/css/main.2f2b7344.css.map",
     "main.ca968ad0.js.map": ". /static/js/main.ca968ad0.js.map",
     "787.82409250.chunk.js.map": ". /static/js/787.82409250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0278f82.css",
+    "static/css/main.2f2b7344.css",
     "static/js/main.ca968ad0.js"
   ]
 }
