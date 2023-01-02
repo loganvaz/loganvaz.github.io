@@ -4,30 +4,20 @@ import { Button } from './Button';
 import BrightnessMediumTwoToneIcon from '@mui/icons-material/BrightnessMediumTwoTone';
 import { Link } from 'react-router-dom';
 
+
 function Footer() {
-  /*
 
-        <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-  */
+  const reset_view = () => {
+    window.scrollTo({top: 0, behavior: 'instant'});
+  }
 
+  const route_external = (url) => {
+    window.location.href = url;
+  }
+
+  const open_email_form = () => {
+    window.open('mailto:loganvaz03@gmail.com?subject=Subject&body=Body%20goes%20here')
+  }
   
   
   return (
@@ -37,15 +27,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Official</h2>
-            <Link to='/sign-up'>LinkedIn</Link>
-            <Link to='/'>Github</Link>
-            <Link to='/'>Resume</Link>
+            <Link onClick= { () => {route_external("https://www.linkedin.com/in/logan-vaz-ut-austin/")}}>LinkedIn</Link>
+            <Link onClick = { () => {route_external("https://github.com/loganvaz?tab=overview&from=2023-01-01&to=2023-01-01")}}>Github</Link>
+            <Link to='/resume' onClick = {reset_view}>Resume</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Personal</h2>
-            <Link to='/'>Website</Link>
-            <Link to='/'>Contact Me</Link>
-            <Link to='/'>Instagram</Link>
+            <Link to='/stories' onClick = {reset_view}>Stories</Link>
+            <Link onClick= {open_email_form}>Contact Me</Link>
+            <Link onClick = { () => {route_external("https://www.instagram.com/logan_vaz/")}}>Instagram</Link>
           </div>
         </div>
 
@@ -63,6 +53,9 @@ function Footer() {
           </div>
         </div>
       </section>
+      <div>
+        <Link to = "/sources" style = {{position: 'absolute', left: '2vh', color: 'white', fontSize: '.75em'}}>Sources</Link>
+      </div>
     </div>
   );
 }

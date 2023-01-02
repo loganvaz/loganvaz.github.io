@@ -22,7 +22,7 @@ export const Button = ( {children, type, onClick, buttonStyle, buttonSize, go_to
             console.log("el is " + element ? element : "nothing there")
             console.log(element ? "top - " + element.getBoundingClientRect().top + " left - " + element.scrollLeft : "") ;
             window.scrollTo( {
-                top: element.getBoundingClientRect().top - document.getElementsByClassName("navbar")[0].getBoundingClientRect().bottom,
+                top: element.getBoundingClientRect().top - document.getElementsByClassName("navbar")[0].getBoundingClientRect().bottom + window.scrollY,
                 left: element.scrollLeft
             })
         }
@@ -58,6 +58,6 @@ export const Button = ( {children, type, onClick, buttonStyle, buttonSize, go_to
 }
 
 Button.defaultProps = {
-    go_to : "sign-up"
+    go_to : "/"
 }
 

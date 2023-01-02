@@ -129,13 +129,23 @@ import fonts
   
   
   }
-  
+  .stories_background {
+    margin-top: -10vh;
+    padding-top: 10vh;
+     /* The image used */
+     background-image:linear-gradient(rgba(0, 0, 0, 0.85),
+     rgba(0, 0, 0, 0.85)), url("../images/tree_throne.JPG") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
   .stories {
     height: auto;
-    /* The image used */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.9)), url("../images/tree_throne.JPG") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
+
+    position: relative;
     
+  }
+
+  body {
+    background-color: white;
   }

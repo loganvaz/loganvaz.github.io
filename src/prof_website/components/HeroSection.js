@@ -4,6 +4,7 @@ import { Button } from './Button';
 import './HeroSection.css';
 import Cards from './Cards';
 import Resume from './Resume';
+import Profile from './Profile';
 
 function HeroSection({inside_content}) {
 
@@ -70,7 +71,7 @@ function HeroSection({inside_content}) {
     </div>
 
     <div id = "about_me">
-      This is the about me section. etc. etc.
+      <Profile />
     </div>
     
     <div id = "card_holder" className = "lightly_shadowed">

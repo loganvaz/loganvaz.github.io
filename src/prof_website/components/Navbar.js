@@ -9,6 +9,12 @@ function Navbar() {
   const reset_view = () => {
     window.scrollTo({top: 0, behavior: 'instant'});
   }
+
+  const open_email_form = () => {
+    window.open('mailto:loganvaz03@gmail.com?subject=Subject&body=Body%20goes%20here')
+  }
+
+  
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -27,6 +33,8 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
+
+  
 
   window.addEventListener('resize', showButton);
 
@@ -68,15 +76,14 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
+                onClick={ () => { open_email_form();closeMobileMenu();}}
               >
-                Sign Up
+                Contact Me
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick = { () => {open_email_form()}}>Contact Me</Button>}
         </div>
       </nav>
     </>

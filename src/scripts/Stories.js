@@ -86,7 +86,7 @@ function Stories() {
           height={height*.6}
           width={width*.2}
           image={image}
-          classes = {cn}
+          className = {cn}
          
         />
         </div>
@@ -116,7 +116,7 @@ function Stories() {
 
     return (
     
-        
+        <div className = "stories_background">
         <div className ="stories">
         
                 {
@@ -129,6 +129,7 @@ function Stories() {
                             </FlippingCard>
                     )
                 }
+        </div>
         </div>
 
 

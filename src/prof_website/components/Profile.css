@@ -1,0 +1,47 @@
+.profile_text_container {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+.profile_skill_container {
+    margin-top: 5em;
+    width: 70%;
+    margin: auto;
+}
+.profile_container {
+    min-height: 75vh;
+    padding-bottom: 5vh;
+    
+}
+.profile_skill_set {
+    margin: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.profile_skills {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 1.25em;
+    border: 2px solid white;
+    min-width: 25%;
+    padding: .5em;
+    border-radius: 1.5em;
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+
+}
+
+#profile_skill_subtitle {
+    font-size: 2em;
+}
