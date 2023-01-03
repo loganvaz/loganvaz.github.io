@@ -16,7 +16,10 @@ import './Stories.css';
 
 //functions to get window dimensions
 function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  //const { innerWidth: width, innerHeight: height } = window;
   return {
     width,
     height
@@ -73,7 +76,7 @@ function Stories() {
   const return_card_media = (component, image, alt, title, display_element, card_style, short_description,cn,idx ) => {
 
 
-    let toRet = <div stlye={card_style} className = {"overall_card " + cn} id = {"front_card"+idx} >
+    let toRet = <div style={card_style} className = {"overall_card " + cn} id = {"front_card"+idx} >
     <Card style={card_style}>
       <CardActionArea>
       {display_element}
