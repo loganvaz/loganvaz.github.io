@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
@@ -14,10 +14,29 @@ import Resume from './components/Resume';
 import Stories from '../scripts/Stories.js'
 
 const WorkApp = () => {
+
+
+    useEffect( () => {
+        let userAgentString = 
+                navigator.userAgent;
+        let safariAgent = 
+        userAgentString.indexOf("Safari") > -1;
+
+        let chromeAgent = 
+        userAgentString.indexOf("Chrome") > -1;
+
+        if (safariAgent && !chromeAgent) 
+        {
+            alert("Please don't use safari to view this application");
+        }
+        
+    })
+
     return (
         <span>
             <HashRouter basename = {`/${process.env.PUBLIC_URL}`} >
                 <Navbar />
+                
                 <Routes>
                     <Route path = "" exact element = {<Home />} />
                     <Route path ='/resume' element = {<Resume />  } />
@@ -29,6 +48,7 @@ const WorkApp = () => {
         
         
         </span>
+
     )
 }
 

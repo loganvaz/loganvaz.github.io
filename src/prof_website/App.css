@@ -16,45 +16,7 @@
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('../photo_album/college/dark_cave2.JPG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('../photo_album/college/dark_cave2.JPG');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('../photo_album/college/dark_cave2.JPG');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
 
-  .main-page-container {
-    background: url('../images/mountains.jpg') center center/cover no-repeat;
-    background-attachment: fixed;
-    position: sticky;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  }
 
   body {
     background-color: transparent;

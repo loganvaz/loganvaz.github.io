@@ -8,46 +8,44 @@ import single_candle from "../images/single_candle.jpg";
 import garden from "../images/tree.jpg";
 import carriage from "../images/carriage.jpg";
 
-import story1 from '../stories/files/withTheMusicOfTheNight.pdf'
-import story2 from "../stories/files/PoemTheGardenIOnceKnew.pdf"
-import story3 from "../stories/files/AGraveMistake.pdf"
+import alt1 from '../stories/files/withTheMusicOfTheNight.pdf'
+import alt2 from "../stories/files/PoemTheGardenIOnceKnew.pdf"
+import alt3 from "../stories/files/AGraveMistake.pdf"
+
 
 import './Stories.css';
 
-//functions to get window dimensions
-function getWindowDimensions() {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
-
-  //const { innerWidth: width, innerHeight: height } = window;
-  return {
-    width,
-    height
-  };
-}
-
-function useWindowDimensions() {
-  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(getWindowDimensions());
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  return windowDimensions;
-}
 
 function Stories() {
+
+  //set up stories so can open in new tab
+  const story1_id = "16CHzAx6bd1jpqFDYftpUQysxixMxXVuf";
+  const story2_id = "1oMTDZA1VWv-t4r6v_oEEIP1923e8R2t4";
+  const story3_id = "1qU9rgA7tHG3OXRUtheEhgFpz_ShFL8lJ";
+
+  const story1 = `https://docs.google.com/gview?url=https://drive.google.com/uc?id=${story1_id}&embedded=true`;
+  const story2 = `https://docs.google.com/gview?url=https://drive.google.com/uc?id=${story2_id}&embedded=true`;
+  const story3 = `https://docs.google.com/gview?url=https://drive.google.com/uc?id=${story3_id}&embedded=true`;
+
+  const [height, change_height] = useState(window.innerHeight);
+  const [width, change_width] = useState(window.innerWidth);
+
+
+  useEffect(() => {
+
+    window.addEventListener('resize', () => {
+      change_height(height);
+      change_width(width);
+    });
+  }, [height, width]);
 
     
 
     //list of all stories displaying
     const list_of_images = [single_candle, garden, carriage];
+    
     const list_of_files = [story1, story2, story3];
+    const list_of_alts = [alt1, alt2, alt3]
     const titles = ["With the Music of the Night \nNo More", "The Garden - Forever in My Mind", "A Grave Mistake"];
     const class_names = ["Phantom", "Garden", "Carriage"]
     const descriptions = ["Poem", "Poem", "Short Story"];
@@ -69,10 +67,6 @@ function Stories() {
     }
 
 
-    //resizing
-    const { height, width } = useWindowDimensions();
-
-
   const return_card_media = (component, image, alt, title, display_element, card_style, short_description,cn,idx ) => {
 
 
@@ -87,7 +81,7 @@ function Stories() {
           component={component}
           title={title}
           height={height*.6}
-          width={width*.2}
+          width={width*.4}
           image={image}
           className = {cn}
          
@@ -108,9 +102,11 @@ function Stories() {
    
   const get_back_card = (idx) => {
     let pdf_file = list_of_files[idx];
+    let alt_file = list_of_alts[idx];
 
     console.log("wrote back of card\n");
-    return <iframe src= {`${pdf_file}`} id = {"back_card"+idx} frameborder="0" width = "100%" height =  {height*.8} alt = "Website not Loading Right Now"></iframe>
+    return <iframe src= {`${alt_file}`} id = {"back_card"+idx} frameborder="0" width = "100%" height =  {height*.8} alt = "Website not Loading Right Now" ></iframe>
+   
 
     
   }

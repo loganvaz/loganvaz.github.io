@@ -28,6 +28,10 @@ function FlippingCard({frontCard, backCard}) {
     width: "40%"
    }
 
+   const card_action = (e) => {
+    stories_handleClick(e);
+   }
+
    
     
 
@@ -37,11 +41,11 @@ function FlippingCard({frontCard, backCard}) {
 
 
              <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal" width = "60%">
-                <Card variant = "outlined" style = {cardStyle} onClick= {(e) => {stories_handleClick(e);}}>
+                <Card variant = "outlined" style = {cardStyle} onClick= {card_action}>
                     <div height = "100%">{frontCard}</div>
                 </Card>
 
-                <Card variant = "outlined" width = "60%" style = {cardStyle} onClick={(e) => {stories_handleClick(e);}}>
+                <Card variant = "outlined" width = "60%" style = {cardStyle} onClick={card_action}>
                     <div height = "100%">{backCard}</div>
                 </Card>
             </ReactCardFlip>
